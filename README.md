@@ -29,4 +29,4 @@ The rules of the game follows "Wordle":
 * `lib` folder was provided that contained necessary libraries for the application.
 * Run `javac --module-path [path_to_lib]/lib/ --add-modules=javafx.controls Jordle.java` on terminal to compile the program.
 * Modify `[path_to_lib]` as the path to `lib` folder in your system.
-* Execute `java --module-path javafx-sdk-11.0.2/lib/ --add-modules=javafx.controls Jordle.java` to run the program.
+* Execute `java --module-path [path_to_lib]/lib/ --add-modules=javafx.controls Jordle.java` to run the program.
